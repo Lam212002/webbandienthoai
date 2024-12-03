@@ -1,0 +1,43 @@
+#icon-menu-responsive {
+  /* display: none; */
+  color: #b33636;
+  font-size: 22px;
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+}
+#position-menu {
+  display: none;
+  background: rgb(194, 191, 191);
+  width: 100%;
+}
+#position-menu .row .col-md-12 {
+  position: relative;
+}
+#position-menu .row .col-md-12 a {
+  color: black;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  font-size: 21px;
+}
+#position-menu .row .col-md-12 a i {
+  padding-left: 10px;
+}
+
+#position-menu li a {
+  border-bottom: 1px solid rgb(216, 210, 209);
+  margin-top: 20px;
+  padding-left: 20px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+#position-menu li a:hover{
+    color: #33506d;
+}
+
+#position-menu .row .col-md-12 {
+  height: 100px;
+  background: #fff;
+}

@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(120deg, #6c5ce7, #ff7675, #e17055);
+  font-family: cursive;
+  font-size: 23;
+}
+#login {
+  width: 300px;
+  min-height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(120deg, white, transparent);
+}
+
+#username,
+#password {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+#username,
+#password:hover {
+  color: #345251;
+  transition: all 0.8s;
+}
+#submit {
+  margin-left: 34%;
+  margin-top: 25px;
+  width: 110px;
+  height: 28px;
+  background: linear-gradient(120deg, #6c5ce7, #a29bfe);
+  border: none;
+  cursor: pointer;
+}
+#submit:hover {
+    color: #fff;
+    transition:all 0.5s;
+}
+a{
+    display: block;
+    display: block;
+    color: black;
+    margin-top: 15px;
+}
